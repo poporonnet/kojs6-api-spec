@@ -10,7 +10,7 @@
 - ランキングを取得
 - [pR] 提出一覧を取得
 
-## [A] コンテストを作成 (POST `/contests)
+## [A] コンテストを作成 (POST `/contests`)
 
 コンテストを作成します。
 
@@ -98,7 +98,7 @@
 
 `204 No Content`
 
-## [pR pA] コンテストの問題リストを取得 (GET `/contests/:id/problems)
+## [pR pA] コンテストの問題リストを取得 (GET `/contests/:id/problems`)
 
 コンテストの問題リストを取得します。  
 
@@ -143,7 +143,7 @@
 ]
 ```
 
-## [pR] 提出一覧を取得
+## [pR] 提出一覧を取得 (GET `/contests/:id/submissions/`)
 
 提出の一覧を取得します。  
 
