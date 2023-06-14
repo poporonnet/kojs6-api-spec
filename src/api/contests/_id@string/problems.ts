@@ -1,4 +1,4 @@
-import { GetProblemResponse } from "problems/@types"
+import { GetProblemResponse } from "../../problems/@types"
 
 export type Methods = {
     get: {

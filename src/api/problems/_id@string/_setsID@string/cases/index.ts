@@ -1,4 +1,4 @@
-import { CreateCaseRequest, CreateCaseResponse } from "problems/@types"
+import { CreateCaseRequest, CreateCaseResponse } from "../../../@types"
 
 export type Methods = {
     post: {

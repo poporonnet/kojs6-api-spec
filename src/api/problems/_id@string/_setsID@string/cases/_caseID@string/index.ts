@@ -1,4 +1,4 @@
-import { PutCaseRequest, PutCaseResponse } from "problems/@types"
+import { PutCaseRequest, PutCaseResponse } from "../../../../@types"
 
 export type Methods = {
     put: {

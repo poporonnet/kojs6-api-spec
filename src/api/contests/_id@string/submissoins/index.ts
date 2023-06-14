@@ -1,4 +1,4 @@
-import { CreateSubmissionRequest, CreateSubmissionResponse } from "contests/@types"
+import { CreateSubmissionRequest, CreateSubmissionResponse } from "api/contests/@types"
 
 export type Methods = {
     post: {

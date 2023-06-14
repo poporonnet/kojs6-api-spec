@@ -1,4 +1,4 @@
-import { GetContestResponse, PutContestRequest, PutContestResponse } from "contests/@types"
+import { GetContestResponse, PutContestRequest, PutContestResponse } from "api/contests/@types"
 
 export type Methods = {
     get: {
