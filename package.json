@@ -1,6 +1,11 @@
 {
-  "name": "kojs6-api-spec",
-  "version": "1.0.0",
+  "name": "@poporonnet/kojs6-api-spec",
+  "version": "v0.0.1-alpha.1",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "dependencies": {
     "@aspida/axios": "^1.12.0",
     "aspida": "^1.12.0",
