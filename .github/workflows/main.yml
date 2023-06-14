@@ -12,6 +12,8 @@ jobs:
           node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
       - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: "8.4.0"
       - run: pnpm i --frozen-lockfile
       - run: pnpm build
       - run: "npm publish --access public"
