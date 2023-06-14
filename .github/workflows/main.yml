@@ -11,8 +11,9 @@ jobs:
         with:
           node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
-      - run: npm ci 
-      - run: npm build
+      - uses: pnpm/action-setup@v2.2.2
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm build
       - run: "npm publish --access public"
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
